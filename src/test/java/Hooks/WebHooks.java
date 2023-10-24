@@ -39,25 +39,4 @@ public class WebHooks {
     public byte[] getScreenshot() {
         return Selenide.screenshot(OutputType.BYTES);
     }
-
-//    @Attachment(value = "screenshot", type = "image/png", fileExtension = ".png")
-//    public byte[] screenshot() throws IOException {
-//        File screenshot = Screenshots.getLastScreenshot();
-//        return screenshot == null ? null : Files.toByteArray(screenshot);
-//    }
-
-
-
-//    public void captureScreenshot(String fileName) {
-//        WebDriver driver = new ChromeDriver();
-//        try {
-//            new File("target/allure-results/screenshots/").mkdirs(); // Insure directory is there
-//            FileOutputStream out = new FileOutputStream("target/allure-results/screenshots/screenshot-" + fileName + ".png");
-//            out.write(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES));
-//            out.close();
-//        } catch (Exception e) {
-//            // No need to crash the tests if the screenshot fails
-//        }
-//    }
-
 }

@@ -1,22 +1,22 @@
-import Hooks.WebHooks;
+import hooks.WebHooks;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.*;
 
-import static Assertions.CreateIssueDialogAsserts.createIssueAssert;
-import static Assertions.DashboardPageAsserts.goToProjectAssert;
-import static Assertions.LoginPageAsserts.loginAssert;
-import static Assertions.MyIssuePageAsserts.runThroughStatusesAssert;
-import static Assertions.TestProjectPageAsserts.issuesQuantityAssert;
-import static Assertions.TestSeleniumPageAsserts.testSeleniumStatusAssert;
-import static Assertions.TestSeleniumPageAsserts.testSeleniumVersionAssert;
-import static Steps.CreateIssueDialogSteps.createIssueFunc;
-import static Steps.DashboardPageSteps.goToProjectFunc;
-import static Steps.LoginPageSteps.loginFunc;
-import static Steps.MyIssuePageSteps.runThroughStatusesFunc;
-import static Steps.TestProjectPageSteps.issuesQuantityFunc;
-import static Steps.TestSeleniumPageSteps.testSeleniumFunc;
+import static assertions.CreateIssueDialogAsserts.createIssueAssert;
+import static assertions.DashboardPageAsserts.goToProjectAssert;
+import static assertions.LoginPageAsserts.loginAssert;
+import static assertions.MyIssuePageAsserts.runThroughStatusesAssert;
+import static assertions.TestProjectPageAsserts.issuesQuantityAssert;
+import static assertions.TestSeleniumPageAsserts.testSeleniumStatusAssert;
+import static assertions.TestSeleniumPageAsserts.testSeleniumVersionAssert;
+import static steps.CreateIssueDialogSteps.createIssueFunc;
+import static steps.DashboardPageSteps.goToProjectFunc;
+import static steps.LoginPageSteps.loginFunc;
+import static steps.MyIssuePageSteps.runThroughStatusesFunc;
+import static steps.TestProjectPageSteps.issuesQuantityFunc;
+import static steps.TestSeleniumPageSteps.testSeleniumFunc;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @Epic("Экзаменационное задание")

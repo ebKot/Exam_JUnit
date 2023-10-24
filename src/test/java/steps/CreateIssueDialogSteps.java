@@ -1,6 +1,6 @@
-package Steps;
+package steps;
 
-import Elements.CreateIssueDialogElements;
+import elements.CreateIssueDialogElements;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 import org.openqa.selenium.Keys;

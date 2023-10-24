@@ -1,6 +1,6 @@
-package Steps;
+package steps;
 
-import Elements.TestProjectPageElements;
+import elements.TestProjectPageElements;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 

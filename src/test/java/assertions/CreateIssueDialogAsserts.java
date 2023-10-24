@@ -1,6 +1,6 @@
-package Assertions;
+package assertions;
 
-import Elements.CreateIssueDialogElements;
+import elements.CreateIssueDialogElements;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 

@@ -1,13 +1,13 @@
-package Steps;
+package steps;
 
-import Elements.TestSeleniumPageElements;
+import elements.TestSeleniumPageElements;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 
 import java.time.Duration;
 
-import static Elements.DashboardPageElements.goToTestSeleniumIssue;
-import static Elements.DashboardPageElements.searchString;
+import static elements.DashboardPageElements.goToTestSeleniumIssue;
+import static elements.DashboardPageElements.searchString;
 
 public class TestSeleniumPageSteps extends TestSeleniumPageElements {
     @Step("Переход в тест с названием TestSelenium")

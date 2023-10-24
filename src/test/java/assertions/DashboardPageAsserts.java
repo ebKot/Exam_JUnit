@@ -1,13 +1,13 @@
-package Assertions;
+package assertions;
 
-import Elements.DashboardPageElements;
+import elements.DashboardPageElements;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 
 import java.time.Duration;
 
-import static Elements.TestProjectPageElements.goToProjectMain;
+import static elements.TestProjectPageElements.goToProjectMain;
 
 public class DashboardPageAsserts extends DashboardPageElements {
     @Step("Проверка перехода в проект Тест")

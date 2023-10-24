@@ -1,6 +1,6 @@
-package Hooks;
+package hooks;
 
-import Configuration.propertiesSetUp;
+import configuration.propertiesSetUp;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;

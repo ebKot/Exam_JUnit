@@ -1,12 +1,12 @@
-package Steps;
+package steps;
 
-import Elements.MyIssuePageElements;
+import elements.MyIssuePageElements;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 
 import java.time.Duration;
 
-import static Elements.CreateIssueDialogElements.linkNewIssue;
+import static elements.CreateIssueDialogElements.linkNewIssue;
 
 public class MyIssuePageSteps extends MyIssuePageElements {
     @Step("Перевод созданного бага по статусам до Подтверждено")

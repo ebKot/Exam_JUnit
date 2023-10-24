@@ -1,10 +1,10 @@
-package Assertions;
+package assertions;
 
-import Elements.MyIssuePageElements;
+import elements.MyIssuePageElements;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 
-import static Elements.TestSeleniumPageElements.statusValue;
+import static elements.TestSeleniumPageElements.statusValue;
 
 public class MyIssuePageAsserts extends MyIssuePageElements {
     @Step("Проверка того, что баг перешёл в статус Готово")

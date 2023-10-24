@@ -1,7 +1,7 @@
-package Steps;
+package steps;
 
-import Configuration.propertiesSetUp;
-import Elements.LoginPageElements;
+import configuration.propertiesSetUp;
+import elements.LoginPageElements;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 

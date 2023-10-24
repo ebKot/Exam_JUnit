@@ -1,6 +1,6 @@
-package Assertions;
+package assertions;
 
-import Elements.TestProjectPageElements;
+import elements.TestProjectPageElements;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;

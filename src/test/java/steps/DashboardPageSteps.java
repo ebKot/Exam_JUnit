@@ -1,6 +1,6 @@
-package Steps;
+package steps;
 
-import Elements.DashboardPageElements;
+import elements.DashboardPageElements;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 

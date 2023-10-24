@@ -1,6 +1,6 @@
 # Экзаменационная работа. Часть 1
 
-<img src="https://i.imgur.com/mbvWLJI.png" alt="Logos"/>
+<img src="https://i.imgur.com/oLP1nGI.png" alt="Logos"/>
 
 ## Разработать проект автотестов с использованием JUnit, Maven, Selenide, Allure
 
